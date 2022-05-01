@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "ruby2_3/version"
+require_relative "ruby2_2/version"
 
 module Rubocop
   # Namespace of this library
-  module Ruby23
+  module Ruby22
   end
 end

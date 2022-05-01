@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in rubocop-ruby2_3.gemspec
+# Specify your gem's dependencies in rubocop-ruby2_2.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
@@ -13,7 +13,7 @@ gem "rspec", "~> 3.0"
 
 ruby_version = Gem::Version.new(RUBY_VERSION)
 minimum_version = ->(version, engine = "ruby") { ruby_version >= Gem::Version.new(version) && RUBY_ENGINE == engine }
-linting = minimum_version.call("2.3")
+linting = minimum_version.call("2.2")
 
 gem "pry", platforms: %i[mri jruby]
 

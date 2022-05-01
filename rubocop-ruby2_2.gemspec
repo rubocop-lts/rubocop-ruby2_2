@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
-require_relative "lib/rubocop/ruby2_3/version"
+require_relative "lib/rubocop/ruby2_2/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "rubocop-ruby2_3"
-  spec.version = Rubocop::Ruby23::VERSION
+  spec.name = "rubocop-ruby2_2"
+  spec.version = Rubocop::Ruby22::VERSION
   spec.authors = ["Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
   spec.summary = "Semantically Versioned Rubocop Dependency"
   spec.description = "Links dependency on minimum Ruby version to maximum Rubocop version"
-  spec.homepage = "https://github.com/rubocop-semver/rubocop-ruby2_3"
+  spec.homepage = "https://github.com/rubocop-semver/rubocop-ruby2_2"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.3.0"
+  spec.required_ruby_version = ">= 2.2.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "#{spec.homepage}/tree/v#{spec.version}"
   spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/v#{spec.version}/CHANGELOG.md"
   spec.metadata["bug_tracker_uri"] = "#{spec.homepage}/issues"
-  spec.metadata["documentation_uri"] = "https://www.rubydoc.info/gems/rubocop-ruby2_3/#{spec.version}"
+  spec.metadata["documentation_uri"] = "https://www.rubydoc.info/gems/rubocop-ruby2_2/#{spec.version}"
   spec.metadata["wiki_uri"] = "#{spec.homepage}/wiki"
   spec.metadata["rubygems_mfa_required"] = "true"
 
