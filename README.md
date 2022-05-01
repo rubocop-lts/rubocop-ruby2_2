@@ -49,11 +49,21 @@ All releases of this gem are stable releases. The first version is `1.0.0`.
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Without bundler execute:
 
-    $ bundle add rubocop-ruby2_2 -r false
+    $ gem install 
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'rubocop-ruby2_2', '~> 1.0', require: false
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
 
     $ gem install rubocop-ruby2_2
 
@@ -61,7 +71,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 The following is optional.  We'll discuss why you might want to do this after you see what it does.
 
-Add to the top of your project's RuboCop configuration file:
+Add to the top of your project's `.rubocop.yml` configuration file:
 
 ```yaml
 inherit_gem:
@@ -74,7 +84,8 @@ This has the same effect as you declaring the following in your `.rubocop.yml`:
 AllCops:
   # remove if already present in your `.rubocop.yml` to gain the full benefit of this gem!
   TargetRubyVersion: 2.2
-  NewCops: enable
+  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as Rubocop adds it.
+  # NewCops: enable
 ```
 
 Let's talk about these settings.
@@ -85,9 +96,7 @@ Allowing this gem to manage the target ruby version means you can switch to a di
 
 ## NewCops: enable
 
-You may not use this setting in your project yet.  Upgrades to the latest Rubocop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of Rubocop can feel risky, especially when it doesn't follow SemVer.
-
-But this gem shoehorns rubocop into SemVer... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bumpin your CI Build!
+If you want to use this you'll have to upgrade Ruby and use the appropriate sibling gem.
 
 ## Development
 
@@ -132,7 +141,7 @@ the [Pessimistic Version Constraint][pvc] with two digits of precision.
 For example:
 
 ```ruby
-spec.add_dependency "rubocop-ruby2_2", "~> 0.1"
+spec.add_dependency "rubocop-ruby2_2", "~> 1.0"
 ```
 
 [copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
