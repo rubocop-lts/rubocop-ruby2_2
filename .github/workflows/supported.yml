@@ -37,7 +37,7 @@ jobs:
         rubygems:
           - "2.7.11"
         bundler:
-          - default
+          - none
         ruby:
           - "2.2"
 
