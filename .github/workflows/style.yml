@@ -24,7 +24,7 @@ jobs:
         rubygems:
           - "2.7.11"
         bundler:
-          - "1.16.6"
+          - default
         ruby:
           - "2.2"
     runs-on: ubuntu-latest
