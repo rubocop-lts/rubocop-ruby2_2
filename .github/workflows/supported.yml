@@ -35,7 +35,7 @@ jobs:
           - ruby
           - rails
         rubygems:
-          - latest
+          - "2.7.11"
         bundler:
           - latest
         ruby:
