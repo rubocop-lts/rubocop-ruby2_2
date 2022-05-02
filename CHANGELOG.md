@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [1.0.2] 2022-05-03
+### Fixed
+* Added missing rubocop.yml for inherit_gem directive
+
 ## [1.0.1] 2022-05-02
 ### Added
 * Documentation
@@ -20,20 +24,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 * Rubocop lock 0.68.0 => 0.68.1
 
-### Fixed
-
-### Removed
-
 ## [1.0.0] 2022-05-01
 ### Added
 * Initial release
 
-### Changed
-
-### Fixed
-
-### Removed
-
-[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_2/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_2/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/rubocop-semver/rubocop-ruby2_2/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rubocop-semver/rubocop-ruby2_2/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rubocop-semver/rubocop-ruby2_2/compare/b86f10e2f7a0ad4081b07782b3b924ef67acdeab...v1.0.0
