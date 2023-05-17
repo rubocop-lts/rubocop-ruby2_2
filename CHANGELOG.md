@@ -36,28 +36,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.4] 2022-05-23
 ### Added
-* Rubocop => RuboCop typo repair
-* Ruby Version Support Matrix
-* Improved documentation
+- Rubocop => RuboCop typo repair
+- Ruby Version Support Matrix
+- Improved documentation
 
 ## [1.0.3] 2022-05-03
 ### Added
-* Style/BracesAroundHashParameters configured to help transition to Ruby 2.7+
+- Style/BracesAroundHashParameters configured to help transition to Ruby 2.7+
 
 ## [1.0.2] 2022-05-03
 ### Fixed
-* Added missing rubocop.yml for inherit_gem directive
+- Added missing rubocop.yml for inherit_gem directive
 
 ## [1.0.1] 2022-05-02
 ### Added
-* Documentation
+- Documentation
 
 ### Changed
-* RuboCop lock 0.68.0 => 0.68.1
+- RuboCop lock 0.68.0 => 0.68.1
 
 ## [1.0.0] 2022-05-01
 ### Added
-* Initial release
+- Initial release
 
 [Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v2.0.0...HEAD
 [2.0.0]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v1.0.4...v2.0.0
