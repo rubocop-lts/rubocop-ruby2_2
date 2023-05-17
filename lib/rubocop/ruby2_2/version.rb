@@ -2,6 +2,8 @@
 
 module Rubocop
   module Ruby22
-    VERSION = "1.0.4".freeze
+    module Version
+      VERSION = "2.0.0"
+    end
   end
 end
