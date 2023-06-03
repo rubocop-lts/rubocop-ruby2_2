@@ -5,6 +5,7 @@
 inherit_mode:
   merge:
     - Exclude
+    - Include
 
 require:
   # Loads the Standard Ruby suite of gems, and configures for rubocop-lts:
