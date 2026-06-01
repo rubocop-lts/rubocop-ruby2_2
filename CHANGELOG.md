@@ -7,7 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
+- Updated direct dependency floors and moved `rubocop-md` to plugin loading.
+### Fixed
+### Removed
+
+## [3.0.1] 2026-06-01
+### Added
+### Changed
 - Load `rubocop-thread_safety` through RuboCop's plugin API.
+### Fixed
+### Removed
+
+## [3.0.0] 2026-05-30
+### Added
+### Changed
 - Tidelift for Reporting Security vulnerabilities
 - Updated `standard-rubocop-lts` dependency to the `2.x` series.
 ### Fixed
@@ -109,7 +122,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v2.0.5...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby2_2/-/compare/v3.0.1...HEAD
 [2.0.5]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v2.0.3...v2.0.4
 [2.0.3]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v2.0.2...v2.0.3
@@ -121,3 +134,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.2]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rubocop-lts/rubocop-ruby2_2/compare/b86f10e2f7a0ad4081b07782b3b924ef67acdeab...v1.0.0
+[3.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby2_2/-/compare/v3.0.0...v3.0.1
+[3.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby2_2/-/compare/v2.0.5...v3.0.0
