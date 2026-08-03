@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "anonymous_loader"
+require "rubocop/ruby2_2"
 RSpec.describe Rubocop::Ruby22::Version do
   it_behaves_like "a Version module", described_class
 
